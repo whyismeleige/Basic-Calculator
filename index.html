@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href ="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header id = "header-container">
+        <div id = "header">
+            <p id="header-text">Basic Calculator</p>
+        </div>
+    </header>
+    <div class = "container">
+        <div class="calculator-container">
+            <div class="calculator-result-container">
+                <input type="text" placeholder="Enter" id="result-input">
+                <div id="result-output">>> </div>
+            </div>
+            <div class="button-container">
+                <div class="buttons clearButton" id="clear-button"><p hidden>C</p>
+                    <span id="clear-text">C</span>
+                </div>
+                <div class="buttons deleteButton" id="delete-button"><p hidden>D</p>
+                    <i class="fa-solid fa-delete-left" ></i>
+                </div>
+                <div class="buttons operatorButtons" id="percentage-button"><p hidden>%</p>
+                    <i class="fa-solid fa-percent"></i>
+                </div>
+                <div class="buttons operatorButtons" id="division-button"><p hidden>/</p>
+                    <i class="fa-solid fa-divide"></i>
+                </div>
+                <div class="buttons numberButtons" id="seven-button">
+                    <span id="seven-text">7</span>
+                </div>
+                <div class="buttons numberButtons" id="eight-button">
+                    <span id="eight-text">8</span>
+                </div>
+                <div class="buttons numberButtons" id="nine-button">
+                    <span id="nine-text">9</span>
+                </div>
+                <div class="buttons operatorButtons" id="multiplication-button"><p hidden>*</p>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="buttons numberButtons" id="four-button">
+                    <span id="four-text">4</span>
+                </div>
+                <div class="buttons numberButtons" id="five-button">
+                    <span id="five-text">5</span>
+                </div>
+                <div class="buttons numberButtons" id="six-button">
+                    <span id="six-text">6</span>
+                </div>
+                <div class="buttons operatorButtons" id="subtraction-button"><p hidden>-</p>
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+                <div class="buttons numberButtons" id="one-button">
+                    <span id="one-text">1</span>
+                </div>
+                <div class="buttons numberButtons" id="two-button">
+                    <span id="two-text">2</span>
+                </div>
+                <div class="buttons numberButtons" id="three-button">
+                    <span id="three-text">3</span>
+                </div>
+                <div class="buttons operatorButtons" id="addition-button"><p hidden>+</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="buttons operatorButtons" id="e-sign-button">
+                    <span id="e-sign-text">e</span>
+                </div>
+                <div class="buttons numberButtons" id="zero-button">
+                    <span id="zero-text">0</span>
+                </div>
+                <div class="buttons operatorButtons" id="decimal-button">
+                    <span id="decimal-text">.</span>
+                </div>
+                <div class="buttons operatorButtons" id="equal-to-button"><p hidden>=</p>
+                    <i class="fa-solid fa-equals"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <span id="creator-text">&copy; Created with &#10084 by <a href="https://github.com/whyismeleige">Piyush Jain</a></span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

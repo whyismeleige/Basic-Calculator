@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 75px;
+    font-size: 1.5rem;
+}
+
+.container{
+    margin: 50px 740px 100px 740px ;
+    height: 550px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 525px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.calculator-result-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#result-input{
+    height: 60px;
+    width: 360px;
+    font-size: 2.5em;
+    box-sizing: border-box;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+#result-output{
+    height: 30px;
+    width: full;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 425px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 65px;
+    width:70px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.buttons:hover{
+    border:2px solid white;
+}
+
+.operatorButtons{
+    color: rgb(253, 196, 11);
+}
+
+.operatorButtons:hover{
+    color: white;
+    background-color: rgb(253, 108, 11);
+}
+
+.deleteButton{
+    color: rgb(255, 123, 0);
+}
+
+.deleteButton:hover{
+    color: white;
+    background-color: rgb(253, 108, 11);
+}
+
+.clearButton{
+    color: rgb(255, 123, 0);
+}
+
+.clearButton:hover{
+    color: white;
+    background-color: rgb(253, 108, 11);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 75px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(min-width:1330px) and (max-width:1380px){
+    .container{
+        margin: 100px 475px 100px 475px;
+    }
+}
+
+@media(min-width:1280px) and (max-width:1330px){
+    .container{
+        margin: 100px 450px 100px 450px;
+    }
+}
+
+@media(min-width:1230px) and (max-width:1280px){
+    .container{
+        margin: 100px 425px 100px 425px;
+    }
+}
+
+@media(min-width:1180px) and (max-width:1230px){
+    .container{
+        margin: 100px 400px 100px 400px;
+    }
+}
+@media(min-width:1130px) and (max-width:1180px){
+    .container{
+        margin: 100px 375px 100px 375px;
+    }
+}
+@media(min-width:1080px) and (max-width:1130px){
+    .container{
+        margin: 100px 350px 100px 350px;
+    }
+}
+
+@media(min-width:1030px) and (max-width:1080px){
+    .container{
+        margin: 100px 325px 100px 325px;
+    }
+}
+
+@media(min-width:980px) and (max-width:1030px){
+    .container{
+        margin: 100px 300px 100px 300px;
+    }
+}
+
+@media(min-width:930px) and (max-width:980px){
+    .container{
+        margin: 100px 275px 100px 275px;
+    }
+}
+
+@media(min-width:880px) and (max-width:930px){
+    .container{
+        margin: 100px 250px 100px 250px;
+    }
+}
+
+@media(min-width:830px) and (max-width:880px){
+    .container{
+        margin: 100px 225px 100px 225px;
+    }
+}
+
+@media(min-width:780px) and (max-width:830px){
+    .container{
+        margin: 100px 200px 100px 200px;
+    }
+}
+
+@media(min-width:730px) and (max-width:780px){
+    .container{
+        margin: 100px 175px 100px 175px;
+    }
+}
+
+@media(min-width:680px) and (max-width:730px){
+    .container{
+        margin: 100px 150px 100px 150px;
+    }
+}
+
+@media(min-width:630px) and (max-width:680px){
+    .container{
+        margin: 100px 125px 100px 125px;
+    }
+}
+
+@media(min-width:580px) and (max-width:630px){
+    .container{
+        margin: 100px 100px 100px 100px;
+    }
+}
